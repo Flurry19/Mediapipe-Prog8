@@ -1,0 +1,136 @@
+html, body {
+    overflow: hidden;
+    height: 100%;
+}
+
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    margin: 2em;
+    color: #333;
+    transition: background 0.5s ease-in-out;
+}
+
+section {
+    background: #ffffffaa;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ff4d4d;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+button {
+    display: block;
+    margin: 1rem auto;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background: #ff6b6b;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff4d4d;
+}
+
+#nnprediction {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #222;
+    background: #fff3cd;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.videoView {
+    height: 0 !important;
+    visibility: hidden;
+}
+
+#webcam,
+#output_canvas {
+    display: block;
+    margin: 0 auto;
+}
+
+video {
+    visibility: hidden;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+#song {
+    visibility: visible;
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.parentDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.childDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.iconDiv {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: #fff;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.iconDiv:hover {
+    transform: scale(1.05);
+    background: #ffe0e0;
+}
+
+.iconDiv p {
+    font-weight: bold;
+}
+
+svg {
+    width: 3rem;
+    height: 3rem;
+    fill: #ff6b6b;
+}
+
+#pointDown {
+    rotate: 180deg;
+}

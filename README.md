@@ -1,4 +1,4 @@
-# ControlIt!
+# Control It!
 ControlIt is a project so you can pause, play and change the volume of music or a video while you lay in bed and your screen is in front of you.
 As someone who has experienced to being able to get out of bed this is an easy way to take control of your music or videos!
 Use the code in this project to adjust it to your own video's or music!
@@ -8,7 +8,7 @@ Use the code in this project to adjust it to your own video's or music!
 git clone https://github.com/Flurry19/Mediapipe-Prog8.git
 You will get 3 maps. If you only want to use the functionality to control the music, just place your own video in the index.html and start controlling it!
 
-### Or create your own model
+### Or create your own poses
 If you want to create your own poses to control the music. Start with the map data_collection.
 Change the buttons in the index.html to your own poses. Change the id and the text within the button.
 
